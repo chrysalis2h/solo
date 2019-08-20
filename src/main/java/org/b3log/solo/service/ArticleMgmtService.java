@@ -52,7 +52,7 @@ import static org.b3log.solo.model.Article.*;
  * Article management service.
  *
  * @author <a href="http://88250.b3log.org">Liang Ding</a>
- * @version 1.3.1.4, Jun 6, 2019
+ * @version 1.3.1.6, Aug 18, 2019
  * @since 0.3.5
  */
 @Service
@@ -176,6 +176,15 @@ public class ArticleMgmtService {
      */
     public void refreshGitHub() {
         if (!initService.isInited()) {
+            return;
+        }
+
+        final JSONObject preference = optionQueryService.getPreference();
+        if (null == preference) {
+            return;
+        }
+
+        if (!preference.optBoolean(Option.ID_C_PULL_GITHUB)) {
             return;
         }
 
@@ -406,7 +415,7 @@ public class ArticleMgmtService {
         try {
             final JSONObject article = requestJSONObject.getJSONObject(ARTICLE);
             String tagsString = article.optString(Article.ARTICLE_TAGS_REF);
-            tagsString = Tag.formatTags(tagsString);
+            tagsString = Tag.formatTags(tagsString, 4);
             if (StringUtils.isBlank(tagsString)) {
                 tagsString = "待分类";
             }
@@ -514,7 +523,7 @@ public class ArticleMgmtService {
             }
 
             String tagsString = article.optString(Article.ARTICLE_TAGS_REF);
-            tagsString = Tag.formatTags(tagsString);
+            tagsString = Tag.formatTags(tagsString, 4);
             if (StringUtils.isBlank(tagsString)) {
                 tagsString = "待分类";
             }

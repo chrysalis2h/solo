@@ -1,7 +1,7 @@
 <p align = "center">
 <img alt="Solo" src="https://user-images.githubusercontent.com/873584/52320401-2593e600-2a0a-11e9-9ba1-db79ee71d1af.png">
 <br><br>
-小而美的博客系统，为未来而构建
+小而美的博客系统，专为程序员设计
 <br><br>
 <a title="Build Status" target="_blank" href="https://travis-ci.org/b3log/solo"><img src="https://img.shields.io/travis/b3log/solo.svg?style=flat-square"></a>
 <a title="Coverage Status" target="_blank" href="https://coveralls.io/github/b3log/solo"><img src="https://img.shields.io/coveralls/github/b3log/solo.svg?style=flat-square&color=CC9933"></a>
@@ -25,7 +25,7 @@
 <a title="Author GitHub Followers" target="_blank" href="https://github.com/88250"><img src="https://img.shields.io/github/followers/88250.svg?label=Followers&style=social"></a>
 </p>
 
-## 简介
+## 💡 简介
 
 [Solo](https://github.com/b3log/solo) 是一款小而美的开源博客系统，专为程序员设计。
 
@@ -34,7 +34,7 @@ Solo 有着非常活跃的[社区](https://hacpai.com)，可将文章作为帖�
 > 这是一种全新的网络社区体验，让热爱记录和分享的你不再感到孤单！\
 > 具体细节请浏览 [B3log 构思](https://hacpai.com/article/1546941897596)
 
-## 案例
+## 🗃 案例
 
 * [D 的个人博客](https://88250.b3log.org)
 * [Jiahao.Zhang's Blog](https://blog.hduzplus.xyz)
@@ -44,14 +44,13 @@ Solo 有着非常活跃的[社区](https://hacpai.com)，可将文章作为帖�
 * [liumapp 的个人博客](http://www.liumapp.com)
 * [水星的随笔](https://note.abeffect.com)
 * [1992 社区](https://1992.cool)
-* [思干豆](http://sigandou.com)
 * [DevHyxo](https://blog.devhyxo.top)
 * [EchoCow](https://echocow.cn)
 * [贼拉正经的技术博客](http://blog.stackoverflow.wiki)
 * [记录改变生活](https://www.tuhaoxin.cn)
 * [程序员小吴](https://cxyxiaowu.com)
 
-## 功能
+## ✨  功能
 
 * Markdown / Emoji
 * [标签聚合分类](https://hacpai.com/article/1558320086126)
@@ -59,7 +58,7 @@ Solo 有着非常活跃的[社区](https://hacpai.com)，可将文章作为帖�
 * 随机文章 / 相关文章 / 置顶 / 更新提醒
 * 自定义文章永久链接 / 签名档
 * 配置站点 SEO 参数 / 公告 / 页脚
-* 代码高亮 / 数学公式 / 流程图
+* 代码高亮 / 数学公式 / 流程图 / 五线谱
 * [多皮肤，多端适配](https://github.com/b3log/solo-skins) / [社区皮肤](https://github.com/b3log/solo-third-skins)
 * 多语言 / 国际化
 * 友情链接管理
@@ -71,11 +70,11 @@ Solo 有着非常活跃的[社区](https://hacpai.com)，可将文章作为帖�
 * [自动同步 GitHub 仓库](https://hacpai.com/article/1557238327458)
 * [内置 HTTPS+CDN 文件存储](https://hacpai.com/article/1559928188793)
 
-## 界面
+## 🎨 界面
 
 ### 开始使用
 
-![start](https://user-images.githubusercontent.com/970828/56885783-df49a280-6a9f-11e9-8f52-bc37fcb03bc5.png)
+![start](https://user-images.githubusercontent.com/970828/61179568-96819e80-a637-11e9-8f73-5188d99ba454.png)
 
 ### 后台首页
 
@@ -87,35 +86,50 @@ Solo 有着非常活跃的[社区](https://hacpai.com)，可将文章作为帖�
 
 ### 选择皮肤
 
-![skins](https://user-images.githubusercontent.com/970828/56886476-ad394000-6aa1-11e9-8a27-abaa22b9996b.png)
+![skins](https://user-images.githubusercontent.com/970828/61179517-afd61b00-a636-11e9-87d5-ddea6d6a0fc9.png)
 
 ### 前台界面
 
-![pinghsu](https://user-images.githubusercontent.com/970828/56885233-875e6c00-6a9e-11e9-88de-4551d955e8b6.png)
+![Bubble](https://user-images.githubusercontent.com/970828/61182950-2ee64600-a66d-11e9-80d6-676ead6933d9.png)
 
-## 皮肤
+![Casper](https://user-images.githubusercontent.com/970828/61182781-d6ae4480-a66a-11e9-84b3-8db55039caa0.png)
 
+![pinghsu](https://user-images.githubusercontent.com/970828/61182902-86d07d00-a66c-11e9-980a-e75fc6624f98.png)
+
+![Jane](https://user-images.githubusercontent.com/970828/61182948-25f57480-a66d-11e9-9e33-ded3b7ca87f2.png)
+
+![nijigen](https://user-images.githubusercontent.com/970828/61182986-e67b5800-a66d-11e9-8dae-7cd94cc16e83.png)
+
+![timeline](https://user-images.githubusercontent.com/970828/61183026-699cae00-a66e-11e9-9bba-ffff2a264a5d.png)
+
+## 🍱 皮肤
+
+目前内置的皮肤如下，可点击进行预览：
+
+* [Bubble](https://88250.b3log.org/?skin=Bubble)
+* [Casper](https://88250.b3log.org/?skin=Casper)
+* [Pinghsu](https://88250.b3log.org/?skin=Pinghsu)
+* [Jane](https://88250.b3log.org/?skin=Jane)
+* [nijigen](https://88250.b3log.org/?skin=nijigen)
+* [Medium](https://88250.b3log.org/?skin=Medium)
 * [9IPHP](https://88250.b3log.org/?skin=9IPHP)
 * [Andrea](https://88250.b3log.org/?skin=Andrea)
 * [Bruce](https://88250.b3log.org/?skin=Bruce)
-* [Casper](https://88250.b3log.org/?skin=Casper)
 * [Community](https://88250.b3log.org/?skin=Community)
 * [favourite](https://88250.b3log.org/?skin=favourite)
 * [Finding](https://88250.b3log.org/?skin=Finding)
 * [i-nove](https://88250.b3log.org/?skin=i-nove)
-* [Jane](https://88250.b3log.org/?skin=Jane)
-* [Medium](https://88250.b3log.org/?skin=Medium)
 * [metro-hot](https://88250.b3log.org/?skin=metro-hot)
 * [NeoEase](https://88250.b3log.org/?skin=NeoEase)
 * [next](https://88250.b3log.org/?skin=next)
-* [nijigen](https://88250.b3log.org/?skin=nijigen)
 * [owmx-3.0](https://88250.b3log.org/?skin=owmx-3.0)
-* [Pinghsu](https://88250.b3log.org/?skin=Pinghsu)
 * [timeline](https://88250.b3log.org/?skin=timeline)
 * [tree-house](https://88250.b3log.org/?skin=tree-house)
 * [yilia](https://88250.b3log.org/?skin=yilia)
 
-## 安装
+欢迎在[该 issue](https://github.com/b3log/solo/issues/12449) 下推荐好看的皮肤，我们会尽量进行制作。
+
+## 🛠️ 安装
 
 ### 本地试用
 
@@ -129,13 +143,15 @@ Solo 有着非常活跃的[社区](https://hacpai.com)，可将文章作为帖�
 **请注意**：我们不建议通过 war 发布包或者源码构建部署，因为这样的部署方式在将来有新版本发布时升级会比较麻烦。
 这两种方式请仅用于本地试用，线上生产环境建议通过 Docker 部署。
 
-### Docker 部署
+### Docker 部署（推荐方案）
 
-获取最新镜像：
+#### 获取最新镜像
 
 ```shell
 docker pull b3log/solo
 ```
+
+#### 启动容器
 
 * 使用 MySQL
 
@@ -173,20 +189,45 @@ docker pull b3log/solo
 
 完整启动参数的说明可以使用 `-h` 来查看。
 
-### Docker 升级
+#### 日志配置
+
+默认通过 log4j 将日志打印到标准输出流，可以通过 `docker logs solo` 进行查看。如果需要覆盖 log4j 配置，可通过挂载文件实现：
+
+```shell
+--volume ~/log4j.properties:/opt/solo/WEB-INF/classes/log4j.properties
+```
+
+#### 皮肤配置
+
+如果要使用其他皮肤，可以挂载目录 skins（里面需要包含所需使用的所有皮肤，官方所有皮肤可从[这里](https://github.com/b3log/solo-skins)下载）：
+ 
+```shell
+--volume ~/skins/:/opt/solo/skins/
+``` 
+
+#### 版本升级
 
 1. 拉取最新镜像
 2. 重启容器
 
 可参考[这里](https://github.com/b3log/solo/blob/master/scripts/docker-restart.sh)编写一个重启脚本，并通过 crontab 每日凌晨运行来实现自动更新。
 
-### Docker Compose
+#### Docker Compose
 
-请参考[这里](https://github.com/liumapp/solo-in-docker)，感谢 [@liumapp](https://github.com/liumapp) 提供 :heart:
+请参考[这里](https://github.com/liumapp/solo-in-docker)，感谢 [@liumapp](https://github.com/liumapp) 提供。
 
-## 文档
+#### ARM/树莓派镜像
+
+```shell
+docker pull clinan/solo
+```
+
+感谢 [@Clinan](https://github.com/Clinan) 提供。
+
+## 📜 文档
 
 * [《提问的智慧》精读注解版](https://hacpai.com/article/1536377163156)
+* [从零开始安装 Solo 博客](https://hacpai.com/article/1565021959471)（感谢 [@JInjianh](https://www.jinjianh.com) 分享）
 * [用户指南](https://hacpai.com/article/1492881378588)
 * [Solo 从设计到实现](https://hacpai.com/article/1537690756242)
   * [项目简介](https://hacpai.com/article/1537691255769)
@@ -203,7 +244,6 @@ docker pull b3log/solo
      * [发布评论](https://hacpai.com/article/1543642913006)
      * [Markdown 渲染](https://hacpai.com/article/1544880962218)
      * [导入 Markdown 文章](https://hacpai.com/article/1547643961141)
-     * [~~邮件推送评论提醒~~](https://hacpai.com/article/1547783770709)
      * 皮肤切换
      * [自动同步 GitHub 仓库](https://hacpai.com/article/1557238327458)
      * [内置 HTTPS + CDN 文件存储](https://hacpai.com/article/1559928188793)
@@ -232,16 +272,16 @@ docker pull b3log/solo
 * [皮肤开发指南](https://hacpai.com/article/1493814851007)
 * [插件开发](https://docs.google.com/document/pub?id=15H7Q3EBo-44v61Xp_epiYY7vK_gPJLkQaT7T1gkE64w&pli=1)
 
-## 社区
+## 🏘️ 社区
 
 * [讨论区](https://hacpai.com/tag/solo)
 * [报告问题](https://github.com/b3log/solo/issues/new/choose)
 
-## 授权
+## 📄 授权
 
 Solo 使用 [GNU Affero General Public License, Version 3](https://www.gnu.org/licenses/agpl-3.0.txt) 开源协议。
 
-## 鸣谢
+## 🙏 鸣谢
 
 * [jQuery](https://github.com/jquery/jquery)：前端 JavaScript 工具库
 * [Vditor](https://github.com/b3log/vditor)： 浏览器端的 Markdown 编辑器
@@ -254,7 +294,7 @@ Solo 使用 [GNU Affero General Public License, Version 3](https://www.gnu.org/l
 
 ---
 
-## 开源项目推荐
+## 👍 开源项目推荐
 
 * 如果你需要搭建一个多用户博客平台，可以考虑使用 [Pipe](https://github.com/b3log/pipe)
 * 如果你需要搭建一个社区平台，可以考虑使用 [Sym](https://github.com/b3log/symphony)
